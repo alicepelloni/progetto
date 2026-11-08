@@ -1,0 +1,32 @@
+# Local data and sensitive files
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.zip
+*.parquet
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pt
+*.pth
+*.onnx
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.*
+
+# Python/Jupyter generated files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
