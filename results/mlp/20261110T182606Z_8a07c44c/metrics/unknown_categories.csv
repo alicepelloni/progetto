@@ -1,0 +1,46 @@
+split,feature,unknown_count
+train,Race,0
+train,Marital Status,0
+train,T Stage,0
+train,N Stage,0
+train,6th Stage,0
+train,Grade,0
+train,A Stage,0
+train,Estrogen Status,0
+train,Progesterone Status,0
+validation_stop,Race,0
+validation_stop,Marital Status,0
+validation_stop,T Stage,0
+validation_stop,N Stage,0
+validation_stop,6th Stage,0
+validation_stop,Grade,0
+validation_stop,A Stage,0
+validation_stop,Estrogen Status,0
+validation_stop,Progesterone Status,0
+validation_threshold,Race,0
+validation_threshold,Marital Status,0
+validation_threshold,T Stage,0
+validation_threshold,N Stage,0
+validation_threshold,6th Stage,0
+validation_threshold,Grade,0
+validation_threshold,A Stage,0
+validation_threshold,Estrogen Status,0
+validation_threshold,Progesterone Status,0
+validation_calibration,Race,0
+validation_calibration,Marital Status,0
+validation_calibration,T Stage,0
+validation_calibration,N Stage,0
+validation_calibration,6th Stage,0
+validation_calibration,Grade,0
+validation_calibration,A Stage,0
+validation_calibration,Estrogen Status,0
+validation_calibration,Progesterone Status,0
+test,Race,0
+test,Marital Status,0
+test,T Stage,0
+test,N Stage,0
+test,6th Stage,0
+test,Grade,0
+test,A Stage,0
+test,Estrogen Status,0
+test,Progesterone Status,0

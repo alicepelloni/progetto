@@ -29,3 +29,5 @@ __pycache__/
 .ipynb_checkpoints/
 .venv/
 venv/
+cvae_output/
+.venv-cvae/

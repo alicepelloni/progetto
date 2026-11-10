@@ -1,0 +1,10 @@
+{
+  "raw_records": 4024,
+  "exact_duplicates_removed": 1,
+  "eligible": 3270,
+  "class_0": 2821,
+  "class_1": 449,
+  "censored_excluded": 753,
+  "late_deaths_class_0": 167,
+  "dataset_sha256": "1d64363e87b306bdb241cb7e105271514f74564842c02e01dbce2f4884266d09"
+}

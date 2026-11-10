@@ -1,0 +1,70 @@
+{
+  "hyperparameters": {
+    "hidden": [
+      32,
+      16
+    ],
+    "dropout": 0.1,
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "max_epochs": 200,
+    "patience": 20,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1.0,
+    "min_delta": 1e-05
+  },
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "split_seed": 42,
+  "device_mode": "auto",
+  "deterministic": true,
+  "amp": false,
+  "age_bins": [
+    "-inf",
+    50,
+    60,
+    "inf"
+  ],
+  "age_labels": [
+    "<50",
+    "50-59",
+    ">=60"
+  ],
+  "validation_fraction": 0.25,
+  "test_size": 0.25,
+  "posthoc_calibration": true,
+  "split_path": "None",
+  "baseline_path": "None",
+  "numerical": [
+    "Age",
+    "Tumor Size",
+    "Regional Node Examined",
+    "Reginol Node Positive"
+  ],
+  "categorical": [
+    "Race",
+    "Marital Status",
+    "T Stage",
+    "N Stage",
+    "6th Stage",
+    "Grade",
+    "A Stage",
+    "Estrogen Status",
+    "Progesterone Status"
+  ],
+  "bootstrap_replicates": 300,
+  "min_group_n": 30,
+  "min_group_class": 10,
+  "shap": {
+    "enabled": true,
+    "background": 64,
+    "patients": 100,
+    "samples": 200
+  },
+  "threshold_criterion": "maximum validation balanced accuracy; ties nearest 0.5",
+  "split_origin": "reproduced breast_cancer.ipynb source recipe; verify baseline imports",
+  "dataset_sha256": "1d64363e87b306bdb241cb7e105271514f74564842c02e01dbce2f4884266d09"
+}

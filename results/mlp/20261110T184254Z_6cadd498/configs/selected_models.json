@@ -1,0 +1,158 @@
+{
+  "MLP-A_seed42": {
+    "name": "MLP-A",
+    "seed": 42,
+    "threshold": null,
+    "calibrated_threshold": null,
+    "best_epoch": 9,
+    "candidate": "compact_regularized",
+    "hyperparameters": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05
+    }
+  },
+  "MLP-A_seed123": {
+    "name": "MLP-A",
+    "seed": 123,
+    "threshold": null,
+    "calibrated_threshold": null,
+    "best_epoch": 13,
+    "candidate": "compact_regularized",
+    "hyperparameters": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05
+    }
+  },
+  "MLP-A_seed2026": {
+    "name": "MLP-A",
+    "seed": 2026,
+    "threshold": null,
+    "calibrated_threshold": null,
+    "best_epoch": 12,
+    "candidate": "compact_regularized",
+    "hyperparameters": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05
+    }
+  },
+  "MLP-B_seed42": {
+    "name": "MLP-B",
+    "seed": 42,
+    "threshold": null,
+    "calibrated_threshold": null,
+    "best_epoch": 11,
+    "candidate": "compact_regularized",
+    "hyperparameters": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05
+    }
+  },
+  "MLP-B_seed123": {
+    "name": "MLP-B",
+    "seed": 123,
+    "threshold": null,
+    "calibrated_threshold": null,
+    "best_epoch": 17,
+    "candidate": "compact_regularized",
+    "hyperparameters": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05
+    }
+  },
+  "MLP-B_seed2026": {
+    "name": "MLP-B",
+    "seed": 2026,
+    "threshold": null,
+    "calibrated_threshold": null,
+    "best_epoch": 10,
+    "candidate": "compact_regularized",
+    "hyperparameters": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "MLP-A_seed42": {
+    "name": "MLP-A",
+    "seed": 42,
+    "threshold": 0.09997570514678955,
+    "calibrated_threshold": 0.10249810665845871,
+    "best_epoch": 3
+  },
+  "MLP-A_seed123": {
+    "name": "MLP-A",
+    "seed": 123,
+    "threshold": 0.08872517198324203,
+    "calibrated_threshold": 0.08950842916965485,
+    "best_epoch": 5
+  },
+  "MLP-A_seed2026": {
+    "name": "MLP-A",
+    "seed": 2026,
+    "threshold": 0.13065019249916077,
+    "calibrated_threshold": 0.11485648900270462,
+    "best_epoch": 4
+  },
+  "MLP-B_seed42": {
+    "name": "MLP-B",
+    "seed": 42,
+    "threshold": 0.6187369227409363,
+    "calibrated_threshold": 0.19535797834396362,
+    "best_epoch": 4
+  },
+  "MLP-B_seed123": {
+    "name": "MLP-B",
+    "seed": 123,
+    "threshold": 0.4026379883289337,
+    "calibrated_threshold": 0.09733881056308746,
+    "best_epoch": 5
+  },
+  "MLP-B_seed2026": {
+    "name": "MLP-B",
+    "seed": 2026,
+    "threshold": 0.5625888109207153,
+    "calibrated_threshold": 0.1475660651922226,
+    "best_epoch": 4
+  }
+}
