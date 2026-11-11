@@ -1,0 +1,471 @@
+{
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "inner_seed": 42,
+  "outer_seeds": [
+    42,
+    123,
+    2026
+  ],
+  "split_seed": 42,
+  "stopping_fraction": 0.15,
+  "grid": {
+    "BCE_g0_lr0.0005_d0.1_wd0.0001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.1,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 0.0
+    },
+    "BCE_g0_lr0.0005_d0.1_wd0.001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.1,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 0.0
+    },
+    "BCE_g0_lr0.0005_d0.2_wd0.0001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 0.0
+    },
+    "BCE_g0_lr0.0005_d0.2_wd0.001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 0.0
+    },
+    "BCE_g0_lr0.001_d0.1_wd0.0001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.1,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 0.0
+    },
+    "BCE_g0_lr0.001_d0.1_wd0.001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.1,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 0.0
+    },
+    "BCE_g0_lr0.001_d0.2_wd0.0001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 0.0
+    },
+    "BCE_g0_lr0.001_d0.2_wd0.001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 0.0
+    },
+    "Focal_g1_lr0.0005_d0.1_wd0.0001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.1,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 1.0
+    },
+    "Focal_g1_lr0.0005_d0.1_wd0.001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.1,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 1.0
+    },
+    "Focal_g1_lr0.0005_d0.2_wd0.0001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 1.0
+    },
+    "Focal_g1_lr0.0005_d0.2_wd0.001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 1.0
+    },
+    "Focal_g1_lr0.001_d0.1_wd0.0001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.1,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 1.0
+    },
+    "Focal_g1_lr0.001_d0.1_wd0.001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.1,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 1.0
+    },
+    "Focal_g1_lr0.001_d0.2_wd0.0001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 1.0
+    },
+    "Focal_g1_lr0.001_d0.2_wd0.001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 1.0
+    },
+    "Focal_g2_lr0.0005_d0.1_wd0.0001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.1,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 2.0
+    },
+    "Focal_g2_lr0.0005_d0.1_wd0.001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.1,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 2.0
+    },
+    "Focal_g2_lr0.0005_d0.2_wd0.0001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 2.0
+    },
+    "Focal_g2_lr0.0005_d0.2_wd0.001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.0005,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 2.0
+    },
+    "Focal_g2_lr0.001_d0.1_wd0.0001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.1,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 2.0
+    },
+    "Focal_g2_lr0.001_d0.1_wd0.001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.1,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 2.0
+    },
+    "Focal_g2_lr0.001_d0.2_wd0.0001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 2.0
+    },
+    "Focal_g2_lr0.001_d0.2_wd0.001": {
+      "hidden": [
+        16,
+        8
+      ],
+      "dropout": 0.2,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "max_epochs": 200,
+      "patience": 20,
+      "weight_decay": 0.001,
+      "gradient_clip": 1.0,
+      "min_delta": 1e-05,
+      "scheduler": true,
+      "scheduler_patience": 4,
+      "scheduler_factor": 0.5,
+      "minimum_lr": 1e-05,
+      "focal_gamma": 2.0
+    }
+  },
+  "selection_metric": "mean inner AP"
+}
